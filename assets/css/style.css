@@ -142,18 +142,10 @@
     }
 }
 
-/* ----------- Non-Retina Screens ----------- */
-
-@media screen and (min-width: 1370px) and (max-width: 2000px) {
-    .mainWrapper {
-        font-size: 16px;
-    }
-}
-
 /* Media Query for Large screens */
 
 @media (min-width: 1281px) {
     .mainWrapper {
-        font-size: .98em;
+        font-size: 10px;
     }
 }
