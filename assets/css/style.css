@@ -94,7 +94,7 @@
 .snack_content .offer_limit .offer_single_time p {
     text-align: center;
     color: #414141;
-    font-weight: 600;
+    font-weight: 500;
     font-size: .65em;
     line-height: 2em;
 }
@@ -152,7 +152,7 @@
 
 /* Media Query for Large screens */
 
-@media (min-width: 1281px) and (max-width: 1920px) {
+@media (min-width: 1370px) and (max-width: 1920px) {
     .mainWrapper {
         font-size: 22px;
     }
