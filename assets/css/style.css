@@ -124,6 +124,9 @@
     .sale_content_text h1 {
         display: none;
     }
+    .snack_content .offer_limit .offer_single_time {
+        border: none;
+    }
 }
 
 /* Media Query for Tablets Ipads portrait mode */
@@ -131,6 +134,9 @@
 @media (min-width: 768px) and (max-width: 1024px) {
     .mainWrapper {
         font-size: 9px;
+    }
+    .snack_content .offer_limit .offer_single_time {
+        padding: 0.69em 0em;
     }
 }
 
@@ -140,13 +146,19 @@
     .mainWrapper {
         font-size: 14.5px;
     }
+    .snack_content .offer_limit .offer_single_time {
+        padding: 0.71em 0em;
+    }
 }
 
 /* Media Query for Large screens */
 
 @media (min-width: 1281px) {
     .mainWrapper {
-        font-size: 16px;
+        font-size: 15px;
+    }
+    .snack_content .offer_limit .offer_single_time {
+        padding: 0.69em 0em;
     }
 }
 
@@ -155,5 +167,8 @@
 @media (min-width: 1370px) and (max-width: 1920px) {
     .mainWrapper {
         font-size: 22px;
+    }
+    .snack_content .offer_limit .offer_single_time {
+        padding: 0.69em 0em;
     }
 }
